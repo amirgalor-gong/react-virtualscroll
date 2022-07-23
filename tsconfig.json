@@ -9,13 +9,13 @@
     "allowSyntheticDefaultImports": true,
     "noImplicitAny": false,
     "preserveConstEnums": true,
-    "allowJs": true,
-    "sourceMap": false,
+    "sourceMap": true,
     "noImplicitReturns": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "noUnusedParameters": false,
     "noUnusedLocals": true,
+    "declaration": true,
     "lib": [
       "dom",
       "es2015"
@@ -31,6 +31,7 @@
   ],
   "exclude": [
     "dist",
+    "demo",
     "node_modules"
   ],
   "compileOnSave": false,
