@@ -2,8 +2,8 @@
   "name": "react-virtualscroll",
   "version": "1.0.1",
   "description": "Virtual scroll for react with multi-colum support",
-  "main": "src/virtual-scroll.js",
-  "types": "src/virtual-scroll.d.ts",
+  "main": "dist/virtual-scroll.js",
+  "types": "dist/virtual-scroll.d.ts",
   "scripts": {
     "build": "tsc",
     "prepublish": "npm run build",
